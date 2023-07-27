@@ -1242,9 +1242,9 @@ document.body.style.overflowY="hidden"
 const new_data = `the user name is ${name}, the contact email is ${email} and the message was ${message}`
 
     // Create a new entry in the database
-    var newEntryRef = database.ref('emails').push();
+    var newEntryRef = database.ref('data').push();
     newEntryRef.set({
-      email: new_data})
+      data: new_data})
     .then( ()=> {
       console.log('Message sent to Firebase successfully!');
       alert('message sent to Homevestas successfully!')
