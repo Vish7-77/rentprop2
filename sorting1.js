@@ -1,13 +1,13 @@
 const newdata=[
     
     {
-        "title":"sky court",
-        "price":"45,000",
-        "BHK":2,
-        "bath":2,
-        "Sqrt":1450,
-        "type":"Semi Furnished",
-        "area":"kadubisanahalli",
+        "title":"Gr Homes Classic",
+        "price":"26,000",
+        "BHK":1,
+        "bath":1,
+        "Sqrt":850,
+        "type":"fully Furnished",
+        "area":"whitefield",
         "image":[
             "./assets/imgs1/IMG-20230726-WA0078.jpg",
             "./assets/imgs1/IMG-20230726-WA0080.jpg",
@@ -19,6 +19,22 @@ const newdata=[
             "./assets/imgs1/IMG-20230726-WA0086.jpg",
             "./assets/imgs1/IMG-20230726-WA0087.jpg",
             "./assets/imgs1/IMG-20230726-WA0088.jpg",
+        
+        
+        ]
+    
+    },
+
+    {
+        "title":"sky court",
+        "price":"45,000",
+        "BHK":2,
+        "bath":2,
+        "Sqrt":1450,
+        "type":"Semi Furnished",
+        "area":"kadubisanahalli",
+        "image":[
+            
             "./assets/imgs1/IMG-20230726-WA0089.jpg",
             "./assets/imgs1/IMG-20230726-WA0090.jpg",
             "./assets/imgs1/IMG-20230726-WA0091.jpg",
@@ -184,6 +200,30 @@ const newdata=[
             "./assets/imgs6/IMG-20230726-WA0027.jpg",
             "./assets/imgs6/IMG-20230726-WA0028.jpg",
             "./assets/imgs6/IMG-20230726-WA0029.jpg"
+        ]
+    },
+    {
+        "title":"The Nexus Manor",
+        "price":"19,000",
+        "BHK":1,
+        "bath":1,
+        "Sqrt":900,
+        "type":"fully Furnished",
+        "area":"jpnagar",
+        "image":[
+         "./assets/imgs7/IMG-20230726-WA0006.jpg",
+         "./assets/imgs7/IMG-20230726-WA0007.jpg",
+         "./assets/imgs7/IMG-20230726-WA0008.jpg",
+         "./assets/imgs7/IMG-20230726-WA0009.jpg",
+         "./assets/imgs7/IMG-20230726-WA0010.jpg",
+         "./assets/imgs7/IMG-20230726-WA0011.jpg",
+         "./assets/imgs7/IMG-20230726-WA0012.jpg",
+         "./assets/imgs7/IMG-20230726-WA0013.jpg",
+         "./assets/imgs7/IMG-20230726-WA0014.jpg",
+         "./assets/imgs7/IMG-20230726-WA0015.jpg",
+         "./assets/imgs7/IMG-20230726-WA0016.jpg",
+         "./assets/imgs7/IMG-20230726-WA0018.jpg",
+         "./assets/imgs7/IMG-20230726-WA0020.jpg",
         ]
     }
     
