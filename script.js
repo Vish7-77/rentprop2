@@ -289,6 +289,80 @@ main_cards.append(div)
 onload_card_show()
 
 
+function onload_card_show1(){
+
+
+  const random_data =[
+{
+  name:"shashank mehta",
+  desig:"Architecht",
+  message:"Homevesta made selling our property in Bangalore a breeze! Their team was highly professional, knowledgeable, and provided excellent guidance throughout the process."
+
+} , 
+{
+  name:"Nitin kapoor",
+  desig:"Software Engineer",
+  message:"I had a fantastic experience working with Homevesta. They understood my needs and preferences, and their expertise in the Bangalore property market was evident. "
+
+}  ,
+{
+  name:"Mr. Desai",
+  desig:"Accountant",
+  message:"Homevesta is a top-notch property selling company in Bangalore. Their team went above and beyond to ensure a successful sale for our property. Their professionalism and dedication are commendable. "
+
+}  ,
+{
+  name:"Mr. Reddy",
+  desig:"Business man",
+  message:"I'm thrilled with the results Homevesta delivered. Selling a property in Bangalore can be challenging, but they made it seem effortless. Their market insights and marketing strategies were spot-on,"
+
+} ,
+{
+  name:"Mrs. Rao",
+  desig:"Doctor",
+  message:"I cannot thank Homevesta enough for their exceptional service. As a property owner in Bangalore, I was unsure about the selling process, but their team guided me every step of the way. "
+
+} ,
+{
+  name:"ms. Menon",
+  desig:"Teacher",
+  message:"Homevesta exceeded my expectations in selling my property. They provided a personalized approach and handled all negotiations with utmost professionalism. "
+
+} ,
+{
+  name:"mr. Thomasan",
+  desig:"business man",
+  message:"Working with Homevesta was a pleasure. Their team demonstrated professionalism, integrity, and market knowledge at every stage of the property selling process . "
+
+} ,
+
+
+  ]
+  
+  
+  for(let i=0; i<random_data.length;i++){
+  const main_cards = document.getElementById('main_cards1')
+  
+  console.log(random_data[i])
+  const div = document.createElement('div')
+  div.classList.add('flex', 'flex-col', 'my-10', 'w-80', 'ml-10', 'rounded-lg', 'h-80', 'bg-gradient-to-r', 'transition-all', 'duration-150', 'ease-in', 'from-blue-500', 'via-blue-600', 'to-blue-700', 'relative', 'shadow-2xl', 'justify-evenly',"items-center", 'hover:bg-gradient-to-br' )
+  div.innerHTML=`
+  <span class=" text-center w-4/5 text-white">${random_data[i].message}</span>
+  <span class=" text-center w-4/5 font-bold text-xl text-white">${random_data[i].name}</span>
+  <span class=" text-center  w-4/5 font-bold text-sm text-gray-400">${random_data[i].desig}</span>
+  `
+  main_cards.append(div)
+  
+  }
+  
+  
+  
+  
+  
+  
+  }
+  
+  onload_card_show1()
 
 
 
