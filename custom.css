@@ -7,11 +7,8 @@
 
   body{
     font-family: 'Poppins', sans-serif;
-    background: rgb(97,108,255);
-    background: linear-gradient(94deg, rgba(97,108,255,1) 0%, rgba(51,216,217,1) 100%); }
-
-
-
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,116,10,1) 86%); }
     #leo>div{
       background-color: #fff;
     }
