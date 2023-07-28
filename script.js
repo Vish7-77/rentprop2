@@ -1,3 +1,17 @@
+const kadubisanahalli = "kadubisanahalli"
+const bellandur="bellandur"
+const whitefield = "whitefield"
+const koramangala = "koramangala"
+const btm = "btm"
+const hsr = "hsr"
+const Bommasandra = "Bommasandra"
+const jpnagar = "jpnagar"
+const KalyanNagar = "KalyanNagar"
+const Hoodi = "Hoodi"
+const Yamlur = "Yamlur"
+
+
+
 const data=[
     
         {
@@ -214,12 +228,21 @@ const random_data =[
 ]
 
 
+
+
+
 for(let i=0; i<random_data.length;i++){
 const main_cards = document.getElementById('main_cards')
 
 console.log(random_data[i])
 const div = document.createElement('div')
-div.classList.add('flex', 'flex-col', 'w-60', 'mx-10', 'rounded-lg', 'h-80', 'bg-gradient-to-r', 'transition-all', 'duration-150', 'ease-in', 'from-blue-500', 'via-purple-600', 'to-blue-700', 'relative', 'hover:bg-gradient-to-br')
+let a  = String(random_data[i].area)
+let b  = random_data[i].BHK
+div.setAttribute('onclick',`myfunction(${a},${b})`)
+div.classList.add('flex', 'cursor-pointer', 'flex-col', 'w-60', 'mx-10', 'rounded-lg', 'h-80', 'bg-gradient-to-r', 'transition-all', 'duration-150', 'ease-in', 'from-blue-500', 'via-purple-600', 'to-blue-700', 'relative', 'hover:bg-gradient-to-br')
+
+
+
 div.innerHTML=`
 <span
 class="absolute text-white z-10 font-bold top-[65%] shadow-2xl left-5"
@@ -367,3 +390,16 @@ function onload_card_show1(){
 
 
 
+
+
+
+
+  const myfunction=(a,b)=>{
+  console.log(a)
+  console.log(b)
+  sessionStorage.setItem('location',a)
+  sessionStorage.setItem('type',b)
+  location.href='/showproperties.html'
+  
+
+  }

@@ -7,9 +7,14 @@
 
   body{
     font-family: 'Poppins', sans-serif;
-  }
+    background: rgb(97,108,255);
+    background: linear-gradient(94deg, rgba(97,108,255,1) 0%, rgba(51,216,217,1) 100%); }
 
 
+
+    #leo>div{
+      background-color: #fff;
+    }
   .customspinner{
     display: none;
     align-items: center;justify-content: center;

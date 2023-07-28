@@ -300,3 +300,18 @@ else{
 
 
 show_all_data()
+
+
+
+const Navigate1=()=>{
+
+const property_location = sessionStorage.getItem('location')
+const propert_type = sessionStorage.getItem('type')
+
+    const link = `https://wa.me/+919845903418?text=${propert_type}BHK_in_${property_location}`
+console.log(link)
+
+location.href=link
+
+
+}
