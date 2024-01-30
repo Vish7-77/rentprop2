@@ -7,10 +7,29 @@
 
   body{
     font-family: 'Poppins', sans-serif;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,116,10,1) 86%); }
+    /* background: rgb(255,255,255); */
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,116,10,1) 86%);  */
+    /* background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+
+  }
    
+
+  .hoverservice>div>div:hover {
+    cursor: pointer;
+    background: rgb(253, 243, 207);
+    transition: all 0.3s ease-in-out;
+      scale: 1.1;
+  }
    
+
+  .landingDiv{
+    background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg");
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 0.5 opacity */
+    background-blend-mode: multiply; 
+  }
    
     #leo>div{
       background-color: #fff;
