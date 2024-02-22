@@ -490,11 +490,12 @@ function createPropertyTemplate(images, data, typeP,sqft) {
                 <span class="title-font font-medium text-2xl text-gray-900"
                   >${data?.price}</span
                 >
-                <button
-                  class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
-                >
-                  Contact Now
-                </button>
+                <a
+                href="https://wa.me/9845903418"
+                      class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+                    >
+                      Contact Now
+                    </a>
               </div>
             </div>
             <img
