@@ -1,12 +1,22 @@
+const propertyPath0 = "./dist/Rental/Villa For Sale/1 Villa 1.2 Cr anekal";
+const propertyPath1 = "./dist/Rental/Villa For Sale/2 Villa  1.9 Cr sarjapur";
+const propertyPath2 = "./dist/Rental/Villa For Sale/3 villa 4Cr kundalahalli";
+const propertyPath3 = "./dist/Rental/Villa For Sale/Villa  1.8 Cr Varthur";
+const propertyPath4 = "./dist/Rental/Villa For Sale/Villa  2.2 Cr Sarjapur";
+const propertyPath5 = "./dist/Rental/Villa For Sale/Villa  3.2Cr Jp Nagar";
+const propertyPath6 = "./dist/Rental/Villa For Sale/Villa  3Cr whitefield";
+const propertyPath7 = "./dist/Rental/Villa For Sale/Villa  4Cr whitefield";
+const propertyPath8 = "./dist/Rental/Plot";
+const propertyPath9 = "./dist/Rental/commercial Pics";
+
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/1 Villa 1.2 Cr anekal";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath0)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -44,13 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/2 Villa  1.9 Cr sarjapur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath1)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -88,13 +97,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/3 villa 4Cr kundalahalli";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath2)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -132,13 +140,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/Villa  1.8 Cr Varthur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath3)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -176,13 +183,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/Villa  2.2 Cr Sarjapur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath4)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -220,13 +226,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/Villa  3.2Cr Jp Nagar";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath5)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -264,13 +269,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/Villa  3Cr whitefield";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath6)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -309,13 +313,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Villa For Sale/Villa  4Cr whitefield";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath7)
     .then((images) => {
       // Create the property template
       const propertyTemplate = createPropertyTemplate(images, {
@@ -353,13 +356,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/Plot";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("plotandland");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath8)
     .then((images) => {
       let typeP = "Plots";
       // Create the property template
@@ -402,13 +404,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./dist/Rental/commercial Pics";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("comm");
 
   // Fetch the list of images in the property folder
-  fetchImages(propertyPath)
+  fetchImages(propertyPath9)
     .then((images) => {
       let typeP = "Commercial";
       // Create the property template
@@ -418,7 +419,8 @@ document.addEventListener("DOMContentLoaded", function () {
           place: "Commercial properties",
           price: "~contact ",
         },
-        typeP, "4000"
+        typeP,
+        "4000"
       );
 
       // Append the property template to the gallery container
@@ -455,7 +457,7 @@ document.addEventListener("DOMContentLoaded", function () {
  * @param {Array<string>} images - The array of image URLs.
  * @returns {string} - The HTML template for the property.
  */
-function createPropertyTemplate(images, data, typeP,sqft) {
+function createPropertyTemplate(images, data, typeP, sqft) {
   return `
         <section class="text-gray-600 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
@@ -482,7 +484,9 @@ function createPropertyTemplate(images, data, typeP,sqft) {
               </div>
               <div class="flex border-t border-gray-200 py-2">
                 <span class="text-gray-500">size</span>
-                <span class="ml-auto text-gray-900">${sqft ? sqft : "2800"} sqft</span>
+                <span class="ml-auto text-gray-900">${
+                  sqft ? sqft : "2800"
+                } sqft</span>
               </div>
               <div class="flex border-t border-b mb-6 border-gray-200 py-2">
               </div>
