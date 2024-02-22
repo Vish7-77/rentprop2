@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/1 Villa 1.2 Cr anekal";
+  const propertyPath = "./dist/Rental/Villa For Sale/1 Villa 1.2 Cr anekal";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/2 Villa  1.9 Cr sarjapur";
+  const propertyPath = "./dist/Rental/Villa For Sale/2 Villa  1.9 Cr sarjapur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/3 villa 4Cr kundalahalli";
+  const propertyPath = "./dist/Rental/Villa For Sale/3 villa 4Cr kundalahalli";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/Villa  1.8 Cr Varthur";
+  const propertyPath = "./dist/Rental/Villa For Sale/Villa  1.8 Cr Varthur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/Villa  2.2 Cr Sarjapur";
+  const propertyPath = "./dist/Rental/Villa For Sale/Villa  2.2 Cr Sarjapur";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/Villa  3.2Cr Jp Nagar";
+  const propertyPath = "./dist/Rental/Villa For Sale/Villa  3.2Cr Jp Nagar";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/Villa  3Cr whitefield";
+  const propertyPath = "./dist/Rental/Villa For Sale/Villa  3Cr whitefield";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -309,7 +309,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Villa For Sale/Villa  4Cr whitefield";
+  const propertyPath = "./dist/Rental/Villa For Sale/Villa  4Cr whitefield";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("propertyGallery");
@@ -353,7 +353,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/Plot";
+  const propertyPath = "./dist/Rental/Plot";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("plotandland");
@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
   // Specify the path to your property folder
-  const propertyPath = "./Rental/commercial Pics";
+  const propertyPath = "./dist/Rental/commercial Pics";
 
   // Get the reference to the property gallery container
   const propertyGallery = document.getElementById("comm");
