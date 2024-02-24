@@ -125,6 +125,19 @@
     }
   </script>
 
+  <style>
+    .amenitiesLi {
+      display: flex;
+      width: 8rem;
+      font-size: 11px;
+      height: 3rem;
+      gap: 1rem;
+      border: 1px solid gray;
+      margin: 0.3rem;
+      padding: 0.25rem;
+    }
+  </style>
+
   <body>
     <!-- navbar is here   -->
 
@@ -185,191 +198,2545 @@
     </nav>
 
     <div class="flex font-bold text-2xl text-gray-700 my-10 p-5">
-      New Projects
+      Flat for sale
     </div>
 
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap w-full mb-20">
-          <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1
-              class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
+    <section class="flex justify-evenly flex-wrap w-full">
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat 4 Bommasandra 37 Lk Puravankara/425818120_1176769430391452_5429659236498915851_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             >
-              Homevestas
-            </h1>
-            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              Bommasandra, Purvankara
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
           </div>
-          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
-            for more information regarding any project please do contact us.
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            10 mins drive from Bommasandra Metro Station 2bhk Independent
+            Apartment for sale near @Bommasandra Metro Station Ready to move
+            Apartment for sale Price is starts from 37 lakh onwards 15+
+            amenities are available BMRDA and RERA approved project Immediate
+            possession For more details kindly inbox your numbe
           </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
-        <div class="flex flex-wrap -m-4">
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/4 villa 65k Rent kundalahalli 1Lk/407659408_122134861406036131_3772524124749479442_n.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
+        <div class="p-6 pt-3">
+          <a
+            href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            37 Lk -- Contact now
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat 5 Indira Nagar 1.8Cr Pavan Enclave/425847827_122127569024098839_7930437912248454898_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
               >
-                Villa
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Kundalhalli Villa
-              </h2>
-              <p class="leading-relaxed text-base">
-                This villa is currently on rent 65k/month at the deposite of 1Lk
-              </p>
-            </div>
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              Indira Nagar , Pavan Enclave
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
           </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/commercial Pics/2.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
-              >
-                Commercial
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Commercial property
-              </h2>
-              <p class="leading-relaxed text-base">
-                this commercial property is available contact for more info
-              </p>
-            </div>
-          </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/Flat for sale/Flat 5 Indira Nagar 1.8Cr Pavan Enclave/425847827_122127569024098839_7930437912248454898_n.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
-              >
-                Flat
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Flat Indiranagar
-              </h2>
-              <p class="leading-relaxed text-base">
-                This flat is available at Indiranagar with asking of 1.8cr.
-                contact for more info
-              </p>
-            </div>
-          </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/Marathalli 18K/IMG-20231216-WA0018.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
-              >
-                flat
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                flat in marathalli
-              </h2>
-              <p class="leading-relaxed text-base">
-                this flat is available for rent at 18k/month. near marathalli
-                for more info do contact
-              </p>
-            </div>
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            Luxury Flat For Sale 🏤 Location 》Indira Nagar With All Amenities
+            🏊‍♂️👨‍🦽🏋️‍♂️ 《2Bhk, 2Bath & 2 Balcony》 Dimension:- 1360 Sqft Facing:-
+            West Door & Balcony East. Higher Floor Semi Furnished. 5 Years Old.
+            Price;- 1.80Cr
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
-        <div class="flex flex-wrap -m-4">
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/5 Villa Rent 85k whitefield Depo 3Lk/406536773_122134346318036131_4748926402082896110_n.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
+        <div class="p-6 pt-3">
+          <a
+            href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            1.8 Cr -- COntact now
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat 6 Kr Puram 2cr Garuda Lake View/421941495_359152643599505_8979179898170605858_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
               >
-                Villa
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                WhiteField Villa
-              </h2>
-              <p class="leading-relaxed text-base">
-                This villa is currently on rent 85k/month at the deposite of 3Lk
-              </p>
-            </div>
-          </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/commercial Pics/14.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              Kr Puram , Garuda Lake view
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
               >
-                Commercial
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Commercial property
-              </h2>
-              <p class="leading-relaxed text-base">
-                this commercial property is available contact for more info
-              </p>
-            </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
           </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/Flat for sale/Flat 6 Kr Puram 2cr Garuda Lake View/421941495_359152643599505_8979179898170605858_n.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            urva Midtown, Tin Factory, KR Puram 3BHK Partially furnished Rent
+            55k + 6715 maintenance 3L deposit Immediate available
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="p-6 pt-3">
+          <a
+            href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            2 Cr -- COntact now
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat for sale 2 hennur 65 Lk Mantri /425722686_7399231553489729_4294400494520262934_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
               >
-                Flat
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Flat Kr puram
-              </h2>
-              <p class="leading-relaxed text-base">
-                This flat is available at KR puram with asking of 2cr. contact
-                for more info
-              </p>
-            </div>
-          </div>
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <div class="bg-gray-100 p-6 rounded-lg">
-              <img
-                class="h-40 rounded w-full object-cover object-center mb-6"
-                src="./dist/Rental/Hsr Layout/1 bhk Rent 25 K Depo 80K/392951925_295563706762219_8692324230218151427_n.jpg"
-                alt="content"
-              />
-              <h3
-                class="tracking-widest text-indigo-500 text-xs font-medium title-font"
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              Hennur, Mantri
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
               >
-                Rented prop.
-              </h3>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
-                Rented in HSR
-              </h2>
-              <p class="leading-relaxed text-base">
-                this flat is available for rent at 25k/month. near marathalli
-                for more info do contact
-              </p>
-            </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
           </div>
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            Hennur 65 Lk Mantri
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="p-6 pt-3">
+          <a
+            href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            65 Lk
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat sale 3 Kudlu Hsr layout 1.1Cr Purva Celestial /425829314_310865041996879_3339940067745437034_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              Kudlu Hsr layout Purva Celestial
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
+          </div>
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            1.1Cr Kudlu Hsr layout Purva Celestial
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="p-6 pt-3">
+          <a
+          href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            1.1cr --contact now
+        </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flat sale hsr layout 3bhk 1.28 Cr/425516765_2732297540252351_8725519883189388504_n.jpg"
+            alt="ui/ux review check"
+            class="w-full h-80 overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              HSR layout Bangalore
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
+          </div>
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            3 BHK Flats, Apartments for Sale in HSR Layout, Bangalore 2bhk Price
+            Starting From 1.08 cr onwards 3bhk Price Starting From 1.24 cr
+            onwards 100% Vaastu Compliant 25+ amenities are available Gated
+            community with 24 hrs security
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="p-6 pt-3">
+          <a
+          href="https://wa.me/9845903418"
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          >
+            1.28cr --contact now
+        </a>
+        </div>
+      </div>
+
+      <div
+        class="relative m-5 flex w-1/3 phone:w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg"
+      >
+        <div
+          class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+        >
+          <img
+            src="./dist/Rental/Flat for sale/Flatsale whitefield 2 Bhk 95Lk/426438847_3866510113583855_8710538424207508452_n (1).jpg"
+            alt="ui/ux review check"
+            class="h-80 w-full overflow-hidden object-cover"
+          />
+          <div
+            class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"
+          ></div>
+          <button
+            class="!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            <span
+              class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h5
+              class="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900"
+            >
+              WhiteField, Bangalore
+            </h5>
+            <p
+              class="flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="-mt-0.5 h-5 w-5 text-yellow-700"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              5.0
+            </p>
+          </div>
+          <p
+            class="block font-sans text-base antialiased font-light leading-relaxed text-gray-700"
+          >
+            FLat sale 2bhk in WhiteField
+          </p>
+          <div class="inline-flex flex-wrap items-center gap-3 mt-8 group">
+            <section calss="w-full flex p-5">
+              <div class="whiteBox amenities" id="Amenities">
+                <div class="heading font-bold text-xl">
+                  <h2>Amenities</h2>
+                </div>
+                <div class="whiteBody">
+                  <div class="amenitiesBox pl-5 flex flex-wrap phone:pl-2">
+                    <div class="amenitiesLi border m-2 p-2 flex gap-2">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Security.png"
+                          alt="24 x 7 Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Security.png"
+                      /></span>
+                      24 x 7 Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                          alt="ATM's"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ATM.png"
+                      /></span>
+                      ATM's
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                          alt="Attached Market"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/AttachedMarket.png"
+                      /></span>
+                      Attached Market
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                          alt="Badminton Court(s)"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BadmintonCourt.png"
+                      /></span>
+                      Badminton Court(s)
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                          alt="Balcony"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/Balcony.png"
+                      /></span>
+                      Balcony
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                          alt="Balcony or Terrace"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/balcony-0r-tarrecc.png"
+                      /></span>
+                      Balcony or Terrace
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                          alt="Built in Wardrobes"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/BuiltinWardrobes.png"
+                      /></span>
+                      Built in Wardrobes
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                          alt="CCTV Security"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/CCTV-Security.png"
+                      /></span>
+                      CCTV Security
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                          alt="Electricity Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/electricity-backup.png"
+                      /></span>
+                      Electricity Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                          alt="High Speed Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighSpeedElevators.png"
+                      /></span>
+                      High Speed Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                          alt="High Street Retail"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/HighStreetRetail.png"
+                      /></span>
+                      High Street Retail
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                          alt="Maintenance Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/maintenance-staff.png"
+                      /></span>
+                      Maintenance Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                          alt="Power Backup"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/PowerBackup.png"
+                      /></span>
+                      Power Backup
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                          alt="Satellite/Cable TV"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/satelite-cable-tv.png"
+                      /></span>
+                      Satellite/Cable TV
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                          alt="Security Staff"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/security-staff.png"
+                      /></span>
+                      Security Staff
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                          alt="Service Elevators"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ServiceElevators.png"
+                      /></span>
+                      Service Elevators
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                          alt="Tiles"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/tiles.png"
+                      /></span>
+                      Tiles
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                          alt="View of Landmark"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofLandmark.png"
+                      /></span>
+                      View of Landmark
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                          alt="View of Water"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/ViewofWater.png"
+                      /></span>
+                      View of Water
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                          alt="Visitor's Parking"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/VisitorParking.png"
+                      /></span>
+                      Visitor's Parking
+                    </div>
+                    <div class="amenitiesLi">
+                      <span class="amenitiesIco"
+                        ><img
+                          data-src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                          alt="Waste Disposal"
+                          onerror="this.src='/assets/images/not-found-amenities.png'"
+                          class="img-responsive lazy"
+                          height="26px"
+                          width="26px"
+                          src="https://img.squareyards.com/secondaryPortal/waste-disposal.png"
+                      /></span>
+                      Waste Disposal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="p-6 pt-3">
+          <button
+            class="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            95Lk --contact now
+          </button>
         </div>
       </div>
     </section>
