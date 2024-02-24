@@ -1,3 +1,4 @@
+
 const sliderm = new Sliderm("#exampe-slider", {
   arrow: true,
   pagination: true,
@@ -16,8 +17,6 @@ sliderm.on("slide.start", () => {
 sliderm.on("slide.end", () => {
   console.log("The slider is stopped.");
 });
-
-
 
 const sliderm1 = new Sliderm("#exampe-slider1", {
   arrow: true,
@@ -187,7 +186,7 @@ sliderm9.on("slide.start", () => {
 sliderm9.on("slide.end", () => {
   console.log("The slider is stopped.");
 });
-const sliderm10 = new Sliderm("#exampe-slider10", {
+const sliderm10 = new Sliderm("#exampeSlider10", {
   arrow: true,
   pagination: true,
   grouping: false,
@@ -317,7 +316,6 @@ sliderm16.on("slide.end", () => {
   console.log("The slider is stopped.");
 });
 
-
 const sliderm17 = new Sliderm("#exampe-slider17", {
   arrow: true,
   pagination: true,
@@ -336,7 +334,6 @@ sliderm17.on("slide.start", () => {
 sliderm17.on("slide.end", () => {
   console.log("The slider is stopped.");
 });
-
 
 const sliderm18 = new Sliderm("#exampe-slider18", {
   arrow: true,
@@ -413,21 +410,23 @@ sliderm22.on("slide.end", () => {
 });
 
 
-const sliderm23 = new Sliderm("#exampe-slider23", {
-  arrow: true,
-  pagination: true,
-  grouping: false,
-  loop: true,
-  preview: false,
-  columns: 1,
-  duration: 1000,
-  spacing: 10,
-  align: "center",
-});
-sliderm23.on("slide.start", () => {
-  console.log("Just starting to slide!");
-});
 
-sliderm23.on("slide.end", () => {
-  console.log("The slider is stopped.");
-});
+const sliderm23 = new Sliderm("#exampe-slider23", {
+    arrow: true,
+    pagination: true,
+    grouping: false,
+    loop: true,
+    preview: false,
+    columns: 1,
+    duration: 1000,
+    spacing: 10,
+    align: "center",
+  });
+  sliderm23.on("slide.start", () => {
+    console.log("Just starting to slide!");
+  });
+  
+  sliderm23.on("slide.end", () => {
+    console.log("The slider is stopped.");
+  });
+  
