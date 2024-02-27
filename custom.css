@@ -1,95 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&display=swap');
-
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   display: none;
 }
 
-  body{
-    font-family: 'Poppins', sans-serif;
-    /* background: rgb(255,255,255); */
-    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,116,10,1) 86%);  */
-    /* background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
-
-  }
-   
-
-  .hoverservice>div>div:hover {
-    cursor: pointer;
-    background: rgb(253, 243, 207);
-    transition: all 0.3s ease-in-out;
-      scale: 1.1;
-  }
-   
-
-  .landingDiv{
-    background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg");
-    background-color: rgba(0, 0, 0, 0.5); /* Black color with 0.5 opacity */
-    background-blend-mode: multiply; 
-  }
-   
-    #leo>div{
-      background-color: #fff;
-    }
-  .customspinner{
-    display: none;
-    align-items: center;justify-content: center;
-    position: absolute;
-    z-index: 99999;
-    height: 100vh;
-    width: 100%;
-  }
-
-  
-  .homeimg {
-    clip: rect(0px, 300px, 200px, 0px); /* Define the clipping region */
-    /* The rect() function takes four parameters (top, right, bottom, left) to specify the portion of the image to be displayed within the container. */
-  }
-
-.gradclass{
-    background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7035189075630253) 100%);
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: rgb(255,255,255); */
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,116,10,1) 86%);  */
+  /* background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
+.hoverservice > div > div:hover {
+  cursor: pointer;
+  background: rgb(253, 243, 207);
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}
 
-#logh{
+.landingDiv {
+  background-image: url("https://blog.mipimworld.com/wp-content/uploads/2017/07/10_Hottest_Startups_Cropped-1078x516.jpg");
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 0.5 opacity */
+  background-blend-mode: multiply;
+}
+
+#leo > div {
+  background-color: #fff;
+}
+.customspinner {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 99999;
+  height: 100vh;
+  width: 100%;
+}
+
+.homeimg {
+  clip: rect(0px, 300px, 200px, 0px); /* Define the clipping region */
+  /* The rect() function takes four parameters (top, right, bottom, left) to specify the portion of the image to be displayed within the container. */
+}
+
+.gradclass {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.7035189075630253) 100%
+  );
+}
+
+#logh {
   display: none;
 }
 
-
-
-
-  @media (max-width:400px) {
-    
-.section1,.section2{
-    height:120vh !important
-}
-.landingtext{
+@media (max-width: 400px) {
+  .section1,
+  .section2 {
+    height: 120vh !important;
+  }
+  .landingtext {
     font-size: 15px !important;
-}
-
-.section3{
-    height:100vh
-}
-
   }
 
-
-
+  .section3 {
+    height: 100vh;
+  }
+}
 
 .my-element {
   /* Set initial position below the viewport */
   transform: translateY(-100%);
   animation: slideUp 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-
 }
 
 @keyframes slideUp {
   to {
-      /* Set final position at the top of the viewport */
-      transform: translateY(0);
+    /* Set final position at the top of the viewport */
+    transform: translateY(0);
   }
+}
+
+.customLinGrad {
+  background: rgba(2, 0, 36, 0.214);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(64, 64, 64, 0) 100%
+  );
 }

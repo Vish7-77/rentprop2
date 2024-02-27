@@ -495,7 +495,7 @@
 //                   >${data?.price}</span
 //                 >
 //                 <a
-//                 href="https://wa.me/9845903418"
+//                 href="https://wa.me/8884979994"
 //                       class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
 //                     >
 //                       Contact Now
