@@ -199,12 +199,12 @@
 
         <div class="flex w-1/2 phone:hidden justify-evenly items-center">.</div>
 
-        <a
+        <!-- <a
           href="/listyourprop.html"
           class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 phone:hidden dark:focus:ring-blue-800 font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
-          List Properties
-        </a>
+          Sell or rent your property
+        </a> -->
 
         <button onclick="ToggleHam()" class="phone:flex 2xl:hidden">
           <svg
@@ -241,7 +241,9 @@
       Buy Properties
     </div>
 
-    <section class="text-gray-600 body-font overflow-hidden">
+    <div id="cardContainer" class="flex flex-wrap gap-5 justify-center"></div>
+
+    <!-- <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
@@ -661,7 +663,7 @@
           <td>Sompura gate</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
 
     <!-- <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
@@ -1010,7 +1012,7 @@
     <div class="flex w-full py-10 justify-center">
       <a
         href="https://wa.me/8884979994"
-        class="flex  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+        class="flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
       >
         Contact Now
       </a>
@@ -1090,7 +1092,7 @@
                 </li>
                 <li>
                   <a href="#" class="hover:underline"
-                    >CALL US: 08041260041 (LandLine)</a
+                    >CALL US: 8884979994 (LandLine)</a
                   >
                 </li>
               </ul>
@@ -1277,6 +1279,385 @@
       closeContactBtn.addEventListener("click", () => {
         document.getElementById("contactPop").style.display = "none";
       });
+    </script>
+
+    <script>
+      const jsonData = [
+        {
+          "Plot Size": "A",
+          Katha: "East",
+          Facing: "1200",
+          "Plot Area Sqft": 15500,
+          Price: "Whitefield",
+          Location: "Prashanth layout extension",
+          locality: null,
+          image:'./dist/Rental/Plot/1.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "West",
+          Facing: "2400",
+          "Plot Area Sqft": 13500,
+          Price: "Whitefield",
+          Location: "Prithvi layout",
+          locality: null,
+          image:'./dist/Rental/Plot/2.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East",
+          Facing: "1500",
+          "Plot Area Sqft": 14500,
+          Price: "Whitefield",
+          Location: "Prithvi layout",
+          locality: null,
+          image:'./dist/Rental/Plot/3.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "North",
+          Facing: "1725",
+          "Plot Area Sqft": 14500,
+          Price: "Whitefield",
+          Location: "White rose layout",
+          locality: null,
+          image:'./dist/Rental/Plot/4.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "West/North",
+          Facing: "2400",
+          "Plot Area Sqft": 9000,
+          Price: "Whitefield",
+          Location: "prithvi layout",
+          locality: null,
+          image:'./dist/Rental/Plot/5.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "South",
+          Facing: "2400",
+          "Plot Area Sqft": 8500,
+          Price: "Whitefield",
+          Location: "Ecc Road",
+          locality: null,
+          image:'./dist/Rental/Plot/6.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "West",
+          Facing: "1200",
+          "Plot Area Sqft": 12500,
+          Price: "Whitefield",
+          Location: "Ecc Road",
+          locality: null,
+          image:'./dist/Rental/Plot/7.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "North/West",
+          Facing: "8000",
+          "Plot Area Sqft": 9500,
+          Price: "Whitefield",
+          Location: "Nagondanahalli",
+          locality: null,
+          image:'./dist/Rental/Plot/8.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East/West",
+          Facing: "1450",
+          "Plot Area Sqft": 8000,
+          Price: "Whitefield",
+          Location: "Gandhi pura",
+          locality: null,
+          image:'./dist/Rental/Plot/9.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "South",
+          Facing: "1200",
+          "Plot Area Sqft": 9000,
+          Price: "MARATHALLI",
+          Location: "Karthik Nagar",
+          locality: null,
+          image:'./dist/Rental/Plot/10.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East/West",
+          Facing: "1080",
+          "Plot Area Sqft": 3796,
+          Price: "Electronic city",
+          Location: "Neeladri road",
+          locality: null,
+          image:'./dist/Rental/Plot/11.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East",
+          Facing: "1500",
+          "Plot Area Sqft": 9000,
+          Price: "Sarjapur road",
+          Location: "Dommasandra",
+          locality: null,
+          image:'./dist/Rental/Plot/12.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "North",
+          Facing: "1725",
+          "Plot Area Sqft": 6500,
+          Price: "Sarjapur road",
+          Location: "Dommasandra",
+          locality: null,
+          image:'./dist/Rental/Plot/13.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "West/North",
+          Facing: "2400",
+          "Plot Area Sqft": 6800,
+          Price: "Sarjapur road",
+          Location: "Sompura gate",
+          locality: null,
+          image:'./dist/Rental/Plot/14.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "South",
+          Facing: "2400",
+          "Plot Area Sqft": 5500,
+          Price: "Sarjapur road",
+          Location: "Sompura gate",
+          locality: null,
+          image:'./dist/Rental/Plot/15.jpg'
+        },
+        {
+          "Plot Size": "E",
+          Katha: "West",
+          Facing: "1200",
+          "Plot Area Sqft": 6500,
+          Price: "Sarjapur road",
+          Location: "Doddakannelli",
+          locality: null,
+          image:'./dist/Rental/Plot/16.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "North/West",
+          Facing: "8000",
+          "Plot Area Sqft": 5500,
+          Price: "Sarjapur road",
+          Location: "Doddakannelli",
+          locality: null,
+          image:'./dist/Rental/Plot/17.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East/West",
+          Facing: "1450",
+          "Plot Area Sqft": 4400,
+          Price: "Sarjapur road",
+          Location: "Carmelaram",
+          locality: null,
+          image:'./dist/Rental/Plot/18.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "South",
+          Facing: "1200",
+          "Plot Area Sqft": 7500,
+          Price: "Sarjapur road",
+          Location: "Carmelaram",
+          locality: null,
+          image:'./dist/Rental/Plot/19.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "East/West",
+          Facing: "1080",
+          "Plot Area Sqft": 3796,
+          Price: "Sarjapur road",
+          Location: "bellandur gate",
+          locality: null,
+          image:'./dist/Rental/Plot/1.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "South",
+          Facing: "1200",
+          "Plot Area Sqft": 6500,
+          Price: "Hosur road",
+          Location: "AECS layout",
+          locality: null,
+          image:'./dist/Rental/Plot/2.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "West",
+          Facing: "1200",
+          "Plot Area Sqft": 7200,
+          Price: "Hosur road",
+          Location: "AECS layout",
+          locality: null,
+          image:'./dist/Rental/Plot/3.jpg'
+        },
+        {
+          "Plot Size": "E",
+          Katha: "North",
+          Facing: "1200",
+          "Plot Area Sqft": 5500,
+          Price: "Hosur road",
+          Location: "AECS layout",
+          locality: null,
+          image:'./dist/Rental/Plot/4.jpg'
+        },
+        {
+          "Plot Size": "B",
+          Katha: "East",
+          Facing: "1200",
+          "Plot Area Sqft": 6200,
+          Price: "Hosur road",
+          Location: "AECS layout",
+          locality: null,
+          image:'./dist/Rental/Plot/5.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "West/North",
+          Facing: "2400",
+          "Plot Area Sqft": 16500,
+          Price: "bellandur",
+          Location: "Green Glen Layout",
+          locality: null,
+          image:'./dist/Rental/Plot/6.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "East",
+          Facing: "1200",
+          "Plot Area Sqft": 16500,
+          Price: "bellandur",
+          Location: "Green Glen Layout",
+          locality: null,
+          image:'./dist/Rental/Plot/7.jpg'
+        },
+        {
+          "Plot Size": "A",
+          Katha: "South",
+          Facing: "2400",
+          "Plot Area Sqft": 5500,
+          Price: "Sarjapur road",
+          Location: "Sompura gate",
+          locality: null,
+          image:'./dist/Rental/Plot/8.jpg'
+        },
+      ];
+
+      function createCard(data) {
+        const cardContainer = document.getElementById("cardContainer");
+
+        const cardDiv = document.createElement("div");
+        cardDiv.className =
+          "relative flex w-full max-w-[26rem] m-5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg";
+
+        const imageDiv = document.createElement("div");
+        imageDiv.className =
+          "relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40";
+
+        const img = document.createElement("img");
+        img.src = data.image;
+        img.className = "w-96 h-72 object-cover";
+        img.alt = "ui/ux review check";
+
+        const overlayDiv = document.createElement("div");
+        overlayDiv.className =
+          "absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60";
+
+        const button = document.createElement("button");
+        button.className =
+          "!absolute top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none";
+        button.type = "button";
+
+        const svg = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg"
+        );
+        svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+        svg.setAttribute("viewBox", "0 0 24 24");
+        svg.setAttribute("fill", "currentColor");
+        svg.className = "w-6 h-6";
+
+        const path = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "path"
+        );
+        path.setAttribute(
+          "d",
+          "M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+        );
+        svg.appendChild(path);
+
+        button.appendChild(svg);
+        overlayDiv.appendChild(button);
+        imageDiv.appendChild(img);
+        imageDiv.appendChild(overlayDiv);
+
+        const contentDiv = document.createElement("div");
+        contentDiv.className = "p-6";
+
+        const headerDiv = document.createElement("div");
+        headerDiv.className = "flex items-center justify-between mb-3";
+
+        const title = document.createElement("h5");
+        title.className =
+          "block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900";
+        title.textContent = `${data.Location}  | ${data.Price} || Khata - ${data["Plot Size"]} ${data.Facing} sqft`;
+
+        const rating = document.createElement("p");
+        rating.className =
+          "flex items-center gap-1.5 font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased";
+        rating.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="-mt-0.5 h-5 w-5 text-yellow-700"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path></svg> `;
+
+        headerDiv.appendChild(title);
+        headerDiv.appendChild(rating);
+
+        const description = document.createElement("p");
+        description.className =
+          "block font-sans text-base antialiased font-light leading-relaxed text-gray-700";
+        description.textContent = `${data["Plot Area Sqft"]} sqft area, | ${
+          data.Price
+        }/m rent | ${data.locality ? data.locality + " | " : ""}Waste Disposal
+24/7 Hours Concierge
+24/7 Security
+ATM's
+Attached Market
+Jogging/Cycle Track
+Kids Play Area
+Large Green Area
+Visitor's Parking
+Waste Disposal`;
+
+        const contactDiv = document.createElement("div");
+        contactDiv.className = "p-6 pt-3";
+
+        const contactLink = document.createElement("a");
+        contactLink.href = `https://wa.me/+918884979994`;
+        contactLink.className =
+          "block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none";
+        contactLink.textContent = ` ₹ ${data["Plot Area Sqft"]}/ sqft`;
+
+        contactDiv.appendChild(contactLink);
+        contentDiv.appendChild(headerDiv);
+        contentDiv.appendChild(description);
+        cardDiv.appendChild(imageDiv);
+        cardDiv.appendChild(contentDiv);
+        cardDiv.appendChild(contactDiv);
+        cardContainer.appendChild(cardDiv);
+      }
+
+      jsonData.forEach((data) => createCard(data));
     </script>
   </body>
 </html>

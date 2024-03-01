@@ -152,61 +152,70 @@
               />
             </svg>
           </div>
+          <style>
+          
+    
+            .form-container {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+    
+            .form-container span {
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 15px;
+                display: block;
+            }
+    
+            .form-container input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+    
+            .form-container button {
+                background-color: #4caf50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1em;
+                transition: background-color 0.3s;
+            }
+    
+            .form-container button:hover {
+                background-color: #45a049;
+            }
+        </style>
+   <div class="form-container">
+    <span>Contact our real estate Experts</span>
+    <input type="text" id="nameInput" placeholder="Name...">
+    <input type="email" id="emailInput" placeholder="Email..">
+    <input type="tel" id="numberInput" placeholder="Number">
+    <button onclick="submitForm()">Submit</button>
+</div>
 
-        
-          <div class="flex flex-col p-2  w-full  ">
-            <span>Looking for Properties ? </span>
-            <span class="text-3xl font-bold"
-              >Our Team is <span class="text-green-500">Online.</span>
-            </span>
-            <span class="text-3xl font-bold"> Connect now</span>
-            <div class="flex gap-5 py-5 text-center">
-              <a
-                href="https://wa.me/8884979994"
-                class="flex flex-col w-32 bg-white p-3 rounded-md shadow-md items-center gap-2"
-              >
-                <img
-                  class="w-12 h-12 phone:w-8 phone:h-8"
-                  src="./assets/whatsapp.png"
-                  alt=""
-                />
-                <span>Chat with us</span>
-              </a>
-              <a
-                href="tel:+918884979994"
-                class="flex flex-col w-32 p-3 rounded-md shadow-md items-center gap-2 bg-white"
-              >
-                <img
-                  class="w-12 h-12 phone:w-8 phone:h-8"
-                  src="./assets/telephone.png"
-                  alt=""
-                />
-                <span>Call us</span>
-              </a>
-              <a
-                href="mailto:Info@homevestas.com"
-                class="flex flex-col w-32 p-3 rounded-md shadow-md items-center gap-2 bg-white"
-              >
-                <img
-                  class="w-12 h-12 phone:w-8 phone:h-8"
-                  src="./assets/gmail.png"
-                  alt=""
-                />
-                <span>Mail us</span>
-              </a>
-              <a
-                href="https://maps.app.goo.gl/rvFvPpjXDCWrkAG99"
-                class="flex flex-col w-32 p-3 rounded-md shadow-md items-center gap-2 bg-white"
-              >
-                <img
-                  class="w-12 h-12 phone:w-8 phone:h-8"
-                  src="./assets/google-maps.png"
-                  alt=""
-                />
-                <span>Near You.</span>
-              </a>
-            </div>
-          </div>
+<script>
+  function submitForm() {
+      const name = document.getElementById('nameInput').value;
+      const email = document.getElementById('emailInput').value;
+      const number = document.getElementById('numberInput').value;
+
+      const message = `Hello, my name is ${name} and my email is ${email} with number ${number}. i am interested in properties. `;
+
+      // Replace 'YourWhatsAppNumber' with your actual WhatsApp number
+      const whatsappLink = `https://wa.me/+918884979994?text=${encodeURIComponent(message)}`;
+
+      window.location.href = whatsappLink;
+  }
+</script>
         </div>
       </div>
     </section>
@@ -228,15 +237,13 @@
           />
         </a>
 
-        <div class="flex w-1/2 phone:hidden justify-evenly items-center">
-     .
-        </div>
+        <div class="flex w-1/2 phone:hidden justify-evenly items-center">.</div>
 
         <a
           href="/listyourprop.html"
           class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 phone:hidden dark:focus:ring-blue-800 font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2"
         >
-          List Properties
+          Sell or rent your property
         </a>
 
         <button onclick="ToggleHam()" class="phone:flex 2xl:hidden">
@@ -477,197 +484,7 @@
         </div>
       </div>
     </section>
-    <div
-      class="flex w-full justify-center items-center font-bold text-2xl my-5"
-    >
-      Insights & tools
-    </div>
 
-    <section
-      class="w-full phone:justify-center flex flex-wrap items-center gap-3 justify-center p-3"
-    >
-      <div
-        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffedba] rounded-lg"
-      >
-        <div class="flex mt-5 gap-5 items-center">
-          <img
-            class="w-10"
-            src="https://www.squareyards.com/assets/images/insight-tool-img/price-trend-cityName-img.svg"
-            alt=""
-          />
-          <span class="font-bold">Property Rates & price trends</span>
-        </div>
-
-        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
-          Market rates, data analytics & registered transactions of top project
-          & localities
-        </div>
-
-        <div class="flex">
-          <img
-            src="https://www.squareyards.com/assets/images/insight-tool-img/price-trends-img.png"
-            alt=""
-          />
-        </div>
-
-        <a
-          href="https://wa.me/8884979994"
-          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#ffd153] h-12"
-        >
-          <span class="text-gray-700">Explore more</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </a>
-      </div>
-      <div
-        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#c6f4e5] rounded-lg"
-      >
-        <div class="flex mt-5 gap-5 items-center">
-          <img
-            class="w-10"
-            src="https://www.squareyards.com/assets/images/insight-tool-img/heatMap-home-img.svg"
-            alt=""
-          />
-          <span class="font-bold">Property Rates Heatmap</span>
-        </div>
-
-        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
-          Market rates, data analytics & registered transactions of top project
-          & localities
-        </div>
-
-        <div class="flex">
-          <img
-            src="https://www.squareyards.com/assets/images/insight-tool-img/property-rates-heatmap-img.png"
-            alt=""
-          />
-        </div>
-
-        <a
-          href="https://wa.me/8884979994"
-          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#7befc8] h-12"
-        >
-          <span class="text-gray-700">Explore more</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </a>
-      </div>
-      <div
-        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffd9f9] rounded-lg"
-      >
-        <div class="flex mt-5 gap-5 items-center">
-          <img
-            class="w-10"
-            src="https://www.squareyards.com/assets/images/insight-tool-img/valuation-report.svg"
-            alt=""
-          />
-          <span class="font-bold">
-            Valuation Report</span>
-        </div>
-
-        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
-          Market rates, data analytics & registered transactions of top project
-          & localities
-        </div>
-
-        <div class="flex">
-          <img
-            src="https://www.squareyards.com/assets/images/insight-tool-img/valuation-report-img.png"
-            alt=""
-          />
-        </div>
-
-        <a
-          href="https://wa.me/8884979994"
-          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#f87fe6] h-12"
-        >
-          <span class="text-gray-700">Explore more</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </a>
-      </div>
-      <div
-        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffdebc] rounded-lg"
-      >
-        <div class="flex mt-5 gap-5 items-center">
-          <img
-            class="w-10"
-            src="https://www.squareyards.com/assets/images/insight-tool-img/review-rating-img.svg"
-            alt=""
-          />
-          <span class="font-bold">Projects Reviews & Ratings</span>
-        </div>
-
-        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
-          Market rates, data analytics & registered transactions of top project
-          & localities
-        </div>
-
-        <div class="flex">
-          <img
-            src="https://www.squareyards.com/assets/images/insight-tool-img/reviews-ratings-img.png"
-            alt=""
-          />
-        </div>
-
-        <a
-          href="https://wa.me/8884979994"
-          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#fdc082] h-12"
-        >
-          <span class="text-gray-700">Explore more</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </a>
-      </div>
-    </section>
     <section
       class="w-full flex flex-col text-center mt-10 justify-center items-center my-5"
     >
@@ -781,7 +598,7 @@
           />
           <span>Title Search</span>
         </a>
-        
+
         <a
           href="/valuationreport.html"
           class="flex p-2 border w-44 h-44 flex-col justify-center items-center"
@@ -840,7 +657,6 @@
           <span>Rental furniture </span>
         </a>
 
-      
         <a
           href="/inspection.html"
           class="flex p-2 border w-44 h-44 flex-col justify-center items-center"
@@ -853,7 +669,6 @@
           <span>property-inspection</span>
         </a>
 
-     
         <a
           href="/solar.html"
           class="flex p-2 border w-44 h-44 flex-col justify-center items-center"
@@ -881,8 +696,196 @@
     </div> -->
 
     <!-- this is Aboutus from home                    -->
+    <div
+      class="flex w-full justify-center items-center font-bold text-2xl my-5"
+    >
+      Insights & tools
+    </div>
 
+    <section
+      class="w-full phone:justify-center flex flex-wrap items-center gap-3 justify-center p-3"
+    >
+      <div
+        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffedba] rounded-lg"
+      >
+        <div class="flex mt-5 gap-5 items-center">
+          <img
+            class="w-10"
+            src="https://www.squareyards.com/assets/images/insight-tool-img/price-trend-cityName-img.svg"
+            alt=""
+          />
+          <span class="font-bold">Property Rates & price trends</span>
+        </div>
 
+        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
+          Market rates, data analytics & registered transactions of top project
+          & localities
+        </div>
+
+        <div class="flex">
+          <img
+            src="https://www.squareyards.com/assets/images/insight-tool-img/price-trends-img.png"
+            alt=""
+          />
+        </div>
+
+        <a
+          href="https://wa.me/8884979994"
+          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#ffd153] h-12"
+        >
+          <span class="text-gray-700">Explore more</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#c6f4e5] rounded-lg"
+      >
+        <div class="flex mt-5 gap-5 items-center">
+          <img
+            class="w-10"
+            src="https://www.squareyards.com/assets/images/insight-tool-img/heatMap-home-img.svg"
+            alt=""
+          />
+          <span class="font-bold">Property Rates Heatmap</span>
+        </div>
+
+        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
+          Market rates, data analytics & registered transactions of top project
+          & localities
+        </div>
+
+        <div class="flex">
+          <img
+            src="https://www.squareyards.com/assets/images/insight-tool-img/property-rates-heatmap-img.png"
+            alt=""
+          />
+        </div>
+
+        <a
+          href="https://wa.me/8884979994"
+          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#7befc8] h-12"
+        >
+          <span class="text-gray-700">Explore more</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffd9f9] rounded-lg"
+      >
+        <div class="flex mt-5 gap-5 items-center">
+          <img
+            class="w-10"
+            src="https://www.squareyards.com/assets/images/insight-tool-img/valuation-report.svg"
+            alt=""
+          />
+          <span class="font-bold"> Valuation Report</span>
+        </div>
+
+        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
+          Market rates, data analytics & registered transactions of top project
+          & localities
+        </div>
+
+        <div class="flex">
+          <img
+            src="https://www.squareyards.com/assets/images/insight-tool-img/valuation-report-img.png"
+            alt=""
+          />
+        </div>
+
+        <a
+          href="https://wa.me/8884979994"
+          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#f87fe6] h-12"
+        >
+          <span class="text-gray-700">Explore more</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        class="flex flex-col phone:w-full justify-center items-center w-[23%] bg-[#ffdebc] rounded-lg"
+      >
+        <div class="flex mt-5 gap-5 items-center">
+          <img
+            class="w-10"
+            src="https://www.squareyards.com/assets/images/insight-tool-img/review-rating-img.svg"
+            alt=""
+          />
+          <span class="font-bold">Projects Reviews & Ratings</span>
+        </div>
+
+        <div class="flex w-5/6 mt-5 text-[0.7rem] text-gray-600">
+          Market rates, data analytics & registered transactions of top project
+          & localities
+        </div>
+
+        <div class="flex">
+          <img
+            src="https://www.squareyards.com/assets/images/insight-tool-img/reviews-ratings-img.png"
+            alt=""
+          />
+        </div>
+
+        <a
+          href="https://wa.me/8884979994"
+          class="flex hover:gap-5 duration-150 ease-in transition-all w-full justify-center items-center rounded-b-lg bg-[#fdc082] h-12"
+        >
+          <span class="text-gray-700">Explore more</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+      </div>
+    </section>
 
     <article
       class="flex section3 justify-center flex-col bg-[#f6f6f6] items-center w-full h-[70vh]"
@@ -1054,7 +1057,9 @@
         <span class="h-[2px] w-44 bg-blue-500 rounded-xl"></span>
       </div>
 
-      <span class="text-center font-medium text-3xl">Find your home and Commercial office space</span>
+      <span class="text-center font-medium text-3xl"
+        >Find your home and Commercial office space</span
+      >
       <span class="text-center text-lg"
         >We have a variety of properties for sale and rent in your city.</span
       >
@@ -1073,7 +1078,7 @@
           <span class="font-medium text-lg">Home for family</span>
         </div>
         <div
-        class="flex flex-col h-1/2 w-[20%] items-center justify-between phone:w-[90%] phone:h-[23%]"
+          class="flex flex-col h-1/2 w-[20%] items-center justify-between phone:w-[90%] phone:h-[23%]"
         >
           <img
             src="https://images.unsplash.com/photo-1532372576444-dda954194ad0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFjaGxvZXIlMjBob21lfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60"
@@ -1131,45 +1136,44 @@
       </div>
     </div>
 
-
     <article
-    class="flex phone:h-screen section2 w-full phone:flex-col overflow-hidden relative phone:justify-center phone:h-[70vh] h-[70vh] bg-gray-100 justify-evenly items-center"
-  >
-    <div
-      class="flex w-[40%] phone:w-[90%] phone:h-[40%] flex-col h-full justify-center gap-5"
+      class="flex phone:h-screen section2 w-full phone:flex-col overflow-hidden relative phone:justify-center phone:h-[70vh] h-[70vh] bg-gray-100 justify-evenly items-center"
     >
-      <span class="text-center text-3xl font-bold"> ABOUT US</span>
-      <span class="phone:text-sm"
-        >We provide the most simple, reliable, convenient and affordable
-        renting solutions that could cater to the needs of everyone. We are
-        committed to providing safe and secure homes with complete
-        documentation to those in need at every location. We firmly adhere to
-        our core values of honesty, helpfulness and equality, without any
-        discrimination.</span
+      <div
+        class="flex w-[40%] phone:w-[90%] phone:h-[40%] flex-col h-full justify-center gap-5"
       >
+        <span class="text-center text-3xl font-bold"> ABOUT US</span>
+        <span class="phone:text-sm"
+          >We provide the most simple, reliable, convenient and affordable
+          renting solutions that could cater to the needs of everyone. We are
+          committed to providing safe and secure homes with complete
+          documentation to those in need at every location. We firmly adhere to
+          our core values of honesty, helpfulness and equality, without any
+          discrimination.</span
+        >
 
-      <button
-        onclick="Navigate()"
-        type="button"
-        class="w-44 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        <button
+          onclick="Navigate()"
+          type="button"
+          class="w-44 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          Read More
+        </button>
+      </div>
+
+      <span
+        class="absolute w-[300px] z-10 h-[100px] flex right-[-122px] bottom-5 bg-gradient-to-br from-purple-600 to-blue-500"
+      ></span>
+      <div
+        class="flex phone:w-[90%] phone:h-[40%] justify-center z-20 items-center p-2 w-[40%] h-full"
       >
-        Read More
-      </button>
-    </div>
-
-    <span
-      class="absolute w-[300px] z-10 h-[100px] flex right-[-122px] bottom-5 bg-gradient-to-br from-purple-600 to-blue-500"
-    ></span>
-    <div
-      class="flex phone:w-[90%] phone:h-[40%] justify-center z-20 items-center p-2 w-[40%] h-full"
-    >
-      <img
-        src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-        class="w-[90%] rounded-md shadow-lg"
-        alt=""
-      />
-    </div>
-  </article>
+        <img
+          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          class="w-[90%] rounded-md shadow-lg"
+          alt=""
+        />
+      </div>
+    </article>
     <section
       class="w-full h-screen phone:h-[180vh] flex gap-5 flex-col items-center"
     >
@@ -1639,8 +1643,9 @@
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <a href="#" class="hover:underline"
-                    >HOMEVESTA GROUPS INDIA PRIVATE LIMITED 
-140/A Poornachandra Towers 4th floor 22nd main 3rd cross HSR layout Sector 1 near RTO office Bangalore 560102</a
+                    >HOMEVESTA GROUPS INDIA PRIVATE LIMITED 140/A Poornachandra
+                    Towers 4th floor 22nd main 3rd cross HSR layout Sector 1
+                    near RTO office Bangalore 560102</a
                   >
                 </li>
                 <li>
@@ -1650,7 +1655,7 @@
                 </li>
                 <li>
                   <a href="#" class="hover:underline"
-                    >CALL US: 08041260041 (LandLine)</a
+                    >CALL US: 8884979994 (LandLine)</a
                   >
                 </li>
               </ul>
